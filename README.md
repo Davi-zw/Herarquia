@@ -10,7 +10,7 @@ class funcionario:
      def info(self):   
          return (f"#{self.indice} - nome:  {self.nome} - email: {self.login}@empresa.com - salario: {self.salario}") 
 
-f = funcionario(0,"Joao","Joao Talevi",3500)
+f = funcionario(0,"Joao","Joao ",3500)
 print(f.info())
 
 class estagiario ( funcionario):
